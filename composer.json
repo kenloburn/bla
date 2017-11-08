@@ -1,0 +1,17 @@
+{
+    "name": "rubenknol/bla",
+    "type": "library",
+    "require": {
+        "symfony/console": "^3.3",
+        "symfony/process": "^3.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "RubenKnol\\MonoTools\\": "src/MonoTools",
+            "RubenKnol\\Bla\\": "src/Bla"
+        }
+    }
+}
